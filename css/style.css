@@ -45,7 +45,13 @@ body{
     background-color: var(--color-notifications);
 }
 .side-notification span,a{
-    font-size: 0.7em;
+    font-size: 0.6em;
+}
+.side-notification i{
+    color: var(--color-notifications);
+    background-color: var(--color-white);
+    border-radius: 50%;
+    padding: 4px;
 }
 /* RESEARCH */
 .side-research{
