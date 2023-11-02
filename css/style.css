@@ -27,6 +27,7 @@ body{
 }
 
 /* SIDEBAR LEFT */
+/* USER */
 .side-user{
     background-color: var(--color-headers);
 }
@@ -38,12 +39,20 @@ body{
 .icons-functions i{
     color: var(--color-light-icons);
 }
+
+/* NOTIFICATION */
 .side-notification{
     background-color: var(--color-notifications);
 }
+.side-notification span,a{
+    font-size: 0.7em;
+}
+/* RESEARCH */
 .side-research{
     background-color: var(--color-contact-hover);
 }
+
+/* CONTACT LIST */
 .side-contact-list{
     background-color: var(--color-white);
 }
