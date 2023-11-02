@@ -12,6 +12,15 @@
     --background: linear-gradient(180deg, #009688 18.55%, #D9DBD5 18.56%);
 }
 
+/* FONT SETTINGS */
 body{
     font-family: 'Lato', sans-serif;
+}
+/* UTILITIES */
+.border1{
+    border: 1px solid black;
+}
+/* BACKGROUND GRADIENT */
+#app{
+    background: var(--background);
 }
