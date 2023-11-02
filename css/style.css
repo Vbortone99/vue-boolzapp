@@ -57,7 +57,9 @@ body{
 .side-research{
     background-color: var(--color-contact-hover);
 }
-
+.search{
+    color: var(--color-light-icons);
+}
 /* CONTACT LIST */
 .side-contact-list{
     background-color: var(--color-white);
