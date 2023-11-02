@@ -73,10 +73,12 @@ body{
     font-size: 0.6em;
 }
 .side-contact-list .small-text{
-    font-size: 0.6em;
+    font-size: 0.5em;
 }
-.side-contact-list .row,.col{
-    width: 100%;
+.my-y-scrollbar{
+    height: 0px;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 /* CHAT PANEL */
 .chat-bg{
