@@ -72,6 +72,12 @@ body{
 .contact-info span{
     font-size: 0.6em;
 }
+.side-contact-list .small-text{
+    font-size: 0.6em;
+}
+.side-contact-list .row,.col{
+    width: 100%;
+}
 /* CHAT PANEL */
 .chat-bg{
     background-image: url(../img/mine.jpg);
