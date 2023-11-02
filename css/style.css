@@ -24,3 +24,17 @@ body{
 #app{
     background: var(--background);
 }
+
+/* SIDEBAR LEFT */
+.side-user{
+    background-color: var(--color-headers);
+}
+.side-notification{
+    background-color: var(--color-notifications);
+}
+.side-research{
+    background-color: var(--color-contact-hover);
+}
+.side-contact-list{
+    background-color: var(--color-white);
+}
