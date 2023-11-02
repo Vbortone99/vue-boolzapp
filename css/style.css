@@ -85,9 +85,26 @@ body{
     background-image: url(../img/mine.jpg);
     background-size: contain;
 }
+
 .chat-user{
     background-color: var(--color-headers);
 }
+.chat-user img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.border-left-1{
+    border-left: 1px solid var(--color-text-grey);
+}
+.chat-user  p{
+    font-size: 0.7em;
+    margin: 0;
+}
+.chat-user i{
+    color: var(--color-light-icons);
+}
+
 .chat-type-bar{
     background-color: var(--color-type-bar);
 }
