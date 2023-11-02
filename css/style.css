@@ -64,7 +64,14 @@ body{
 .side-contact-list{
     background-color: var(--color-white);
 }
-
+.contact-img img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.contact-info span{
+    font-size: 0.6em;
+}
 /* CHAT PANEL */
 .chat-bg{
     background-image: url(../img/mine.jpg);
