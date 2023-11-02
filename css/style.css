@@ -53,6 +53,7 @@ body{
     border-radius: 50%;
     padding: 4px;
 }
+
 /* RESEARCH */
 .side-research{
     background-color: var(--color-contact-hover);
@@ -60,6 +61,7 @@ body{
 .search{
     color: var(--color-light-icons);
 }
+
 /* CONTACT LIST */
 .side-contact-list{
     background-color: var(--color-white);
@@ -86,6 +88,7 @@ body{
     background-size: contain;
 }
 
+/* USER BANNER */
 .chat-user{
     background-color: var(--color-headers);
 }
@@ -104,6 +107,8 @@ body{
 .chat-user i{
     color: var(--color-light-icons);
 }
+
+/* MAIN PANEL */
 .chat-main .sent{
     background-color: var(--color-sent-message);
     border-radius: 6px;
@@ -122,6 +127,8 @@ body{
     bottom: 0;
     right:2%;
 }
+
+/* TYPEBAR */
 .chat-type-bar{
     background-color: var(--color-type-bar);
 }
