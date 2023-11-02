@@ -104,7 +104,24 @@ body{
 .chat-user i{
     color: var(--color-light-icons);
 }
-
+.chat-main .sent{
+    background-color: var(--color-sent-message);
+    border-radius: 6px;
+    padding: 10px;
+    position: relative;
+}
+.chat-main .received{
+    background-color: var(--color-white);
+    border-radius: 6px;
+    padding: 10px;
+    position: relative;
+}
+.chat-main .data{
+    font-size: 0.6em;
+    position: absolute;
+    bottom: 0;
+    right:2%;
+}
 .chat-type-bar{
     background-color: var(--color-type-bar);
 }
