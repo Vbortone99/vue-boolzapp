@@ -9,6 +9,7 @@
     --color-light-icons: #b1b1b1;
     --color-sent-message: #d5f9ba;
     --color-notifications: #8edafc;
+    --color-type-bar:#f3eeea;
     --background: linear-gradient(180deg, #009688 18.55%, #D9DBD5 18.56%);
 }
 
@@ -37,4 +38,16 @@ body{
 }
 .side-contact-list{
     background-color: var(--color-white);
+}
+
+/* CHAT PANEL */
+.chat-bg{
+    background-image: url(../img/mine.jpg);
+    background-size: contain;
+}
+.chat-user{
+    background-color: var(--color-headers);
+}
+.chat-type-bar{
+    background-color: var(--color-type-bar);
 }
