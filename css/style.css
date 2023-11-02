@@ -125,3 +125,6 @@ body{
 .chat-type-bar{
     background-color: var(--color-type-bar);
 }
+.chat-type-bar i{
+    color: var(--color-light-icons);
+}
